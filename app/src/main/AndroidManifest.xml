@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.darshan.quizprep">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        >
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomePage"
+            android:label="@string/title_activity_home_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+     ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".SelectCourse"
+            android:label="@string/title_activity_select_course"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CreateQuiz"
+            android:label="@string/title_activity_create_quiz"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddQuestion"
+            android:label="@string/title_activity_add_question"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".QuizList"
+            android:label="@string/title_activity_quiz_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".QuizOption"
+            android:label="@string/title_activity_quiz_option"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ReviewCode"
+            android:label="@string/title_activity_review_code"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ViewResult"
+            android:label="@string/title_activity_view_result"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".TakeSelectedQuiz" />
+        <activity
+            android:name=".ViewQuizScore"
+            android:label="@string/title_activity_view_quiz_score"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ProfSelectCourse" />
+        <activity
+            android:name=".ProfQuestionList"
+            android:label="@string/title_activity_prof_question_list"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan"></activity>
+    </application>
+
+</manifest>

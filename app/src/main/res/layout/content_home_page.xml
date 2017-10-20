@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.darshan.quizprep.HomePage"
+    tools:showIn="@layout/activity_home_page">
+
+    <Button
+        android:onClick="onLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGOUT"
+        android:id="@+id/btnlogout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:text="CREATE QUIZ"
+        android:id="@+id/btncreate"
+        android:layout_marginTop="113dp"
+        android:onClick="oncreate"
+        android:layout_below="@+id/btnlogout"
+        android:layout_alignRight="@+id/btnlogout"
+        android:layout_alignEnd="@+id/btnlogout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:onClick="onSelectCourse"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:text="SELECT COURSE"
+        android:id="@+id/btnselect"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/btncreate"
+        android:layout_alignEnd="@+id/btncreate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:onClick="onviewresult"
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:text="VIEW ALL RESULT"
+        android:id="@+id/btnview"
+        android:layout_below="@+id/btnselect"
+        android:layout_marginTop="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HomePage"
+        android:id="@+id/homepagetext"
+        android:layout_alignTop="@+id/btnlogout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30dp" />
+</RelativeLayout>

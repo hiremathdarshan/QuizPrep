@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">QuizPrep</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">QuizPrep</string>
+    <string name="title_activity_home_page">QuizPrep</string>
+    <string name="title_activity_select_course">QuizPrep</string>
+    <string name="title_activity_create_quiz">CreateQuiz</string>
+    <string name="title_activity_add_question">AddQuestion</string>
+    <string name="title_activity_quiz_list">QuizList</string>
+    <string name="title_activity_quiz_option">QuizOption</string>
+    <string name="title_activity_review_code">ReviewCode</string>
+    <string name="title_activity_view_result">ViewResult</string>
+    <string name="title_activity_view_quiz_score">ViewQuizScore</string>
+    <string name="title_activity_prof_question_list">ProfQuestionList</string>
+</resources>
